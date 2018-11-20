@@ -1,6 +1,6 @@
 ﻿namespace Allhlepidrash
 {
-    partial class Form1
+    partial class Welcome_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -35,21 +35,23 @@
             // 
             this.start_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.start_button.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.start_button.Location = new System.Drawing.Point(682, 310);
+            this.start_button.Location = new System.Drawing.Point(1023, 477);
+            this.start_button.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.start_button.Name = "start_button";
-            this.start_button.Size = new System.Drawing.Size(451, 225);
+            this.start_button.Size = new System.Drawing.Size(676, 346);
             this.start_button.TabIndex = 0;
             this.start_button.Text = "WELCOME";
             this.start_button.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // Welcome_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1856, 1179);
+            this.ClientSize = new System.Drawing.Size(2784, 1814);
             this.Controls.Add(this.start_button);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Name = "Welcome_Form";
+            this.Text = "Welcome";
             this.ResumeLayout(false);
 
         }

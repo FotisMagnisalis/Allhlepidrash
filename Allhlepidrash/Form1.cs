@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Allhlepidrash
 {
-    public partial class Form1 : Form
+    public partial class Welcome_Form : Form
     {
-        public Form1()
+        public Welcome_Form()
         {
             InitializeComponent();
         }
